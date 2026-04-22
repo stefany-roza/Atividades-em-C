@@ -1,0 +1,22 @@
+#include <stdio.h> 
+
+float num1, num2, num3, media;
+
+int main() 
+{ 
+
+printf("o obtenha a media de 3 notas\n");
+printf("escreva a orimeira nota: \n");
+scanf("%f", &num1); 
+printf("escreva a segunda nota: \n");
+scanf("%f", &num2);
+printf("escreva a terceira nota: \n"); 
+scanf("%f", &num3); 
+
+media = (num1 + num2 + num3) / 3; 
+
+printf("a media e %.2f", media);
+
+
+return 0; 
+}
